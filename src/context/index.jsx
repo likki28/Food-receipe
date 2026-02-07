@@ -53,7 +53,10 @@ export default function GlobalState({children}){
         }
 
         setFavoritesList(cpyFavortesList)
+
+        
     }
+    console.log("Aded to fav",favoritesList);
 
     return <GlobalContext.Provider value={{searchParam,
         setSearchParam,
